@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PermissionDemo</string>
+
+    <string name="button_allow">允许</string>
+    <string name="button_deny">拒绝</string>
+
+    <string name="permission_camera_get">已获取到相机权限。</string>
+    <string name="permission_camera_rationale">需要相机的权限来进行拍照。</string>
+    <string name="permission_camera_denied">相机权限许可被拒绝，请考虑给予权限以便进行拍照操作。</string>
+    <string name="permission_camera_never_ask_again">相机许可被拒绝，不再进行询问。</string>
+    <string name="main_btn_camera">Hello Camera!</string>
+</resources>
