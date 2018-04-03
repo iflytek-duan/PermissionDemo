@@ -16,7 +16,7 @@ import com.dohenes.permissiondemo.BuildConfig;
  * Author：zihao
  * Date：2018/4/3 09:30
  * Email：crazy.zihao@gmail.com
- * Version：v1.0
+ * Version：v1.1
  */
 public class JumpToPermissionManagementUtils {
 
@@ -276,20 +276,6 @@ public class JumpToPermissionManagementUtils {
         intent.putExtra("packageName", BuildConfig.APPLICATION_ID);
         ComponentName comp = new ComponentName("com.qihoo360.mobilesafe",
                 "com.qihoo360.mobilesafe.ui.index.AppEnterActivity");
-        intent.setComponent(comp);
-        activity.startActivity(intent);
-    }
-
-    /**
-     * 跳转至锤子设置界面
-     *
-     * @param activity activity
-     */
-    private static void SmartisanSetting(Activity activity) {
-        Intent intent = new Intent();
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        intent.putExtra("packageName", BuildConfig.APPLICATION_ID);
-        ComponentName comp = new ComponentName("com.smartisanos.security", "com.smartisanos.security.MainActivity");
         intent.setComponent(comp);
         activity.startActivity(intent);
     }
